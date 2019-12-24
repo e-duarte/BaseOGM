@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.hibernate.ogm:hibernate-ogm-core:5.4.1.Final'
+    implementation 'org.hibernate.ogm:hibernate-ogm-mongodb:5.4.1.Final'
+}
+
+application {
+    mainClassName = 'com.baseogm.App'
+}
