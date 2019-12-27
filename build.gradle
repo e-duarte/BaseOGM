@@ -11,6 +11,11 @@ dependencies {
     // caso não funcione apenas com a dependência do mongodb use em conjunto o ogm-core
     // implementation 'org.hibernate.ogm:hibernate-ogm-core:5.4.1.Final'
     implementation 'org.hibernate.ogm:hibernate-ogm-mongodb:5.4.1.Final'
+
+    // Dependencia necessárias para java 11
+    implementation 'javax.xml.bind:jaxb-api:2.2.11'
+    implementation 'com.sun.xml.bind:jaxb-core:2.2.11'
+    implementation 'com.sun.xml.bind:jaxb-impl:2.2.11'
 }
 
 application {
